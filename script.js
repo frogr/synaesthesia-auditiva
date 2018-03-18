@@ -1,12 +1,12 @@
 function playSound(e) {
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-  // const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+  const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
   if (!audio) return;
 
-  // key.classList.add('playing');
+  key.classList.add('playing');
   audio.currentTime = 0;
-  audio.play().catch((err) => {
-    console.log(err);
+  audio.play().then(() => {
+    setTimeout(function() {key.classList.remove('playing');}, 100,);
   });
 }
 

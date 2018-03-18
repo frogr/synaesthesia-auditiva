@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.keys {
+  display: inline-block;
+}
+
+.playing {
+  font-weight: 700;
+}
