@@ -1,2 +1,12 @@
 # synaesthesia-auditiva
-simple but ambitious web-based DAW using wad.js
+
+
+DONE:
+-drumkit
+
+TODO:
+-piano
+-(other instruments)
+-pitch, envelope, etc effects
+-recording
+-playback
